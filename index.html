@@ -4,7 +4,8 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -12,47 +13,57 @@
      <link rel="shortcut icon" href="img/D2-icon.png" />
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
     <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet" type="text/css">
 
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">G S Deepak Kumar</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="page-scroll" href="resume/deepakkumar_resume.pdf">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">G S Deepak Kumar</a>
+            </div>
+ <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="resume/deepakkumar_resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container-fluid -->
     </nav>
 
      <header>
@@ -68,12 +79,12 @@
 
     <section class="bg-primary" id="about" style="height: 100%">
         <div class="container">
-            <img src="img/deepak.jpg" class="img-responsive" alt="" style="margin :auto">
+            <!--img src="img/deepak.jpg" class="img-responsive" alt="" style="margin :auto"  -->
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <hr class="light">
-                    <p class="text-faded">Deepak is an passionate professional who loves to work with big datasets,various analytical methods and statistical models to drive actionable insights and tackle high impact business problems.Deepak leverages his technical abilities and creative mind to tell a story behind the data.He has knowledge of R,MySQL and TABLEAU.</p>
-                    <p class="text-faded">An University Rankholder in his bachelors, Deepak is currently doing his Post graduation in Business Analytics and Business Intelligence from Great Lakes Institute of Management after  2 years of working at Rane Engine Valves as Manufacturing Engineer specialising in Product Development.</p>
+                    <p class="text-faded">Deepak is an passionate professional who loves to work with big datasets,various analytical methods and statistical models to drive actionable insights and tackle high impact business problems by leverages his technical abilities and creative mind to tell a story behind the data.He has knowledge of R,MySQL and TABLEAU.</p>
+                    <p class="text-faded">An University Rankholder in his bachelors,Deepak is currently doing his Post graduation in Business Analytics and Business Intelligence from Great Lakes Institute of Management after  2 years of working at Rane Engine Valves as Manufacturing Engineer specialising in Product Development.</p>
                 </div>
             </div>
         </div>
@@ -94,131 +105,133 @@
                 <div class="col-lg-3 col-lg-offset-1 coldcol-sm-4">
                     <div style="width :95%">
                       <!-- adding the html file of the project-->
-                        <a href="hydrobase.html" class="portfolio-box" >
-                            <img src="img/hydrobase.png" class="img-responsive" alt="">
+                        <a href="videogames.html" class="portfolio-box" >
+                            <img src="img/vgame.jpg" class="img-responsive" alt=" " height="600px" width="600px">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                   <div class="project-category text-faded">
-                                      Internet of things
+                                      Exploratory Data Analysis
                                   </div>
                                     <div class="project-name">
-                                        Hydrobase
+                                        Video Game Sales
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <h3 style="text-align: center">Product Manager</h3></br>
-                        <p class="text-muted" style="font-size: small"> A control system and an analytics engine to help plants grow</p>
+                        <h3 style="text-align: center">Data Analyst</h3></br>
+                        <p class="text-muted" style="font-size: small">Data analysis and visualisation on the video games sales across the world </p>
                         
                     </div>
                 </div>
-          <!--project 2 -->
+
+          <!--project 3 -->
                 <div class="col-lg-3 col-lg-offset-1 col-sm-4">
                     <div style="width :95%">
-                        <a href="jeopardy.html" class="portfolio-box">
-                            <img src="img/jeopardy.png" class="img-responsive" alt="">
+                        <a href="Emergencycalls911.html" class="portfolio-box">
+                            <img src="img/calls.png" class="img-responsive" alt="" size="margin:auto" height="180px" width="180px">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                   <div class="project-category text-faded">
-                                      Information Visualization
+                                      Information Visualisation
                                   </div>
                                     <div class="project-name">
-                                        This is Jeopardy!
+                                        Visualising 911 Calls 
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <h3 style="text-align: center">Info-Viz Engineer</h3></br>
-                        <p class="text-muted" style="font-size: small"> Get to know more about your favourite game show in a more visually appealing way.</p>
-                        <!--b class="text-muted">Accepted Poster at IEEE Viz Conference 2015!</b-->
+                        <h3 style="text-align: center">Data Analyst </h3></br>
+                        <p class="text-muted" style="font-size: small"> Analysis of 911 Calls in Montogomery,US </p>
+                        
                     </div>
                 </div>
-      <!-- project 3 -->
+<!-- project 2-->
                 <div class="col-lg-3 col-lg-offset-1 col-sm-4">
                     <div style="width :95%">
-                        <a href="nyce.html" class="portfolio-box">
-                            <img src="img/NYCe.png" class="img-responsive" alt="">
+                        <a href="paper_boat.pdf" class="portfolio-box">
+                            <img src="img/pb.jpg"  class="img-responsive" alt="" height="280px" width="280px">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Data Mining and Analytcis
+                                        Market Research
                                     </div>
                                     <div class="project-name">
-                                        NYCe Taxi
+                                        Market Research
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <h3 style="text-align: center">Machine Learning Engineer</h3></br>
-                        <p class="text-muted" style="font-size: small">The best tool to predict the Tip of a New York Taxi cab driver.</p>
+                        <h3 style="text-align: center">Research Analyst</h3></br>
+                        <p class="text-muted" style="font-size: small">Market analysis of Hector Beverage's Paper Boat drink</p>
+                        <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
+                    </div>
+                </div>
+      <!-- project 4 -->
+                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                    <div style="width :95%">
+                        <a href="Parks.html" class="portfolio-box">
+                            <img src="img/park.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Data Mining and Analytics
+                                    </div>
+                                    <div class="project-name">
+                                       Visualisation of Biodiversity in National Parks
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <h3 style="text-align: center">Data Anlayst</h3></br>
+                        <p class="text-muted" style="font-size: small">Data mining of dataset from National Park Service</p>
                         <!--b class="text-muted">Pay Smart!</b-->
                     </div>
                 </div>
-    <!-- project 4 -->
+    <!-- project 5 -->
                 <div class="col-lg-3 col-lg-offset-1 col-sm-4">
                     <div style="width :95%">
-                        <a href="memeoke.html" class="portfolio-box">
-                            <img src="img/memeoke.png"  class="img-responsive" alt="">
+                        <a href="web.html" class="portfolio-box">
+                            <img src="img/web.jpg"  class="img-responsive" alt="" height="210px" width="210px">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Web Architechture
+                                        Data Analysis & Visualisation
                                     </div>
                                     <div class="project-name">
-                                        Memeoke
+                                        Analysis and Visualisation of Popular Websites data across globe
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <h3 style="text-align: center">Backend Developer</h3></br>
-                        <p class="text-muted" style="font-size: small">The place to be if you want to sing your heart out to amazing lyrics and funny GIFs.</p>
+                        <h3 style="text-align: center">Data Analyst</h3></br>
+                        <p class="text-muted" style="font-size: small">Exploratory data analysis using plotly package</p>
                         <!--b class="text-muted">Share your happiness!</b-->
                     </div>
                 </div>
-  <!-- project 5 -->
+  
+<!-- project 5 -->
                 <div class="col-lg-3 col-lg-offset-1 col-sm-4">
                     <div style="width :95%">
-                        <a href="travelbites.html" class="portfolio-box">
-                            <img src="img/travelbites.png"  class="img-responsive" alt="">
+                        <a href="Vistara_case.pdf" class="portfolio-box">
+                            <img src="img/vistara.png"  class="img-responsive" alt="" height="250px" width="250px">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        User Interface Design and Development
+                                        Market Research
                                     </div>
                                     <div class="project-name">
-                                        Travel Bites
+                                        Market Research and analysis of Vistara Airlines
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <h3 style="text-align: center">UX Reseacher</h3></br>
-                        <p class="text-muted" style="font-size: small">The app that allows you to plan your travel iternary around food.</p>
+                        <h3 style="text-align: center">Research Analyst </h3></br>
+                        <p class="text-muted" style="font-size: small">Segmentation,Targeting and Positioning of Vistara and PESTLE analysis.</p>
                         <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
                     </div>
                 </div>
 <!-- project 6 -->
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
-                    <div style="width :95%">
-                        <a href="anlp.html" class="portfolio-box">
-                            <img src="img/anlp.png"  class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Natural Language Processing
-                                    </div>
-                                    <div class="project-name">
-                                        Restaurant Ambience Tagger
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <h3 style="text-align: center">NLP Engineer</h3></br>
-                        <p class="text-muted" style="font-size: small">Classification model to assign these tags to restaurants based on non-linguistic as well as linguistic features.</p>
-                        <!--b class="text-muted">A fun user research project with great people with love for food!!</b-->
-                    </div>
-                </div>
-<!-- project 7 -->
-                <div class="col-lg-3 col-lg-offset-1 col-sm-4">
+                <!--div class="col-lg-3 col-lg-offset-1 col-sm-4">
                     <div style="width :95%">
                         <a href="cookcounty.html" class="portfolio-box">
                             <img src="img/cookcounty.png"  class="img-responsive" alt="">
@@ -239,7 +252,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
     </section>
 <!-- Contact Information -->
     <section id="contact">
